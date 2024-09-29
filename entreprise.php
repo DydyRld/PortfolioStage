@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <?php include_once 'navbar.php'; ?>
+
+    <div class="containercontact">
+
+        <section id="presentation" class="presentation-container">
+            
+            <div class="presentation-text">
+                <h2>Présentation de l'Hôpital Lenval</h2>
+                <p>L'Hôpital pour Enfants Lenval est situé à Nice sur la Promenade des Anglais. Spécialisé
+                    dans la prise en charge pédiatrique, il offre des soins de haute qualité aux enfants de la région et
+                    au-delà. Cet hôpital est reconnu pour ses services d'urgences pédiatriques, ses unités spécialisées,
+                    ainsi que son engagement à améliorer constamment les soins pour les jeunes patients. Il a été fondé en 1888.</p>
+                    <img src="./assets/lenval.jpg" alt="Hôpital Lenval" class="presentation-image">
+                <p>Implanté au bord de la Méditerranée, Lenval bénéficie d'un environnement propice au bien-être des
+                    enfants et de leurs familles. L'hôpital s'efforce de créer un cadre de travail collaboratif et
+                    innovant, où chaque membre du personnel médical et soignant joue un rôle clé dans l'excellence des
+                    soins prodigués.</p>
+                    <img src="./assets/badge.JPEG" alt="Hôpital Lenval" class="presentation-image">
+                    <p>J'ai choisi de réaliser mon stage à la Fondation Lenval car, en tant que Niçois, cet hôpital pédiatrique me tient particuliérement à cœur.
+                         J'ai pu contribé au service informatique d'un établissement qui aide chaque jour des enfants et leurs familles ce qui a été une expérience enrichissante pour moi. 
+                         Au-delà des aspects techniques, ce stage m'a permis d'apporter un soutien direct aux médecins et aux familles dans le cadre de mes missions, 
+                         ce qui a renforcé mon sentiment d'engagement et d'utilité dans cet environnement.</p>
+
+
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>

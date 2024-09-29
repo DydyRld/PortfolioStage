@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85, 85, 85);
+}
+
+a, .btn{
+    transition: all 300ms ease;
+}
+
+nav, .nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    }
+
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color:white ;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
+
+#profile .imgpdp {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50px;
+}
+
+section{
+    padding-top: 4vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.profil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.section-pic{
+    width: 35%;
+}
+
+.section-text{
+    align-self: center;
+    text-align: center;
+}
+
+.section-text p{
+    font-weight: 600;
+}
+
+.txtp1{
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.buttoncv{
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+.buttoncv:hover{
+    cursor: pointer;
+    color: white;
+    background: rgb(0, 0, 0);
+}
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .icon {
+    cursor: pointer;
+    height: 3rem;
+  }
+  
+
+/* Presentation */
+
+#competences {
+    padding: 20px;
+}
+
+.divcompetence {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#competences {
+    padding: 50px;
+}
+
+.txt-competence h1  {
+    padding-top: 5%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Style pour la section présentation */
+.container-presentation {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container-presentation h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.container-presentation p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.container-presentation p strong {
+    color: #000;
+}
+
+.container-presentation p:last-child {
+    margin-bottom: 0;
+}
+
+.txt-competence h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 40px 0;
+}
+
+
+
+
+.custom-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.form-submit {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+.article-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-title-custom {
+    font-size: 24px;
+    color: #333;
+}
+
+.article-content-custom {
+    color: #555;
+}
+
+.article-date-custom {
+    color: #777;
+    margin-top: 10px;
+}
+
+.delete-button-custom,
+.form-submit-custom {
+    background-color: #ff4444;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.delete-button-custom:hover,
+.form-submit-custom:hover {
+    background-color: #cc0000;
+}
+
+.form-label-custom {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-input-custom,
+.form-textarea-custom {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ajtblogp{
+    text-align: center;
+}
+.form-textarea-custom {
+    resize: vertical;
+}
+
+.custom-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les messages d'erreur */
+.error-message {
+    color: red;
+    font-weight: bold;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+
+.submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+#messagesContainer {
+    margin-top: 20px;
+}
+
+.message-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-email,
+.user-message,
+.message-date {
+    margin: 0;
+    padding: 8px 0;
+}
+
+.user-email strong,
+.user-message strong,
+.message-date strong {
+    font-weight: bold;
+}
+
+
+
+.message-divider {
+    margin: 10px 0;
+    border: 0.5px solid #ccc;
+}
+
+
+/* Container for the contact section */
+.contact-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title for the contact form */
+.contact-container h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels styling */
+.contact-form label {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Input and Textarea fields */
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Presentation Section */
+#presentation {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Image Styling */
+.presentation-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Content Styling */
+.presentation-text {
+    max-width: 700px;
+}
+
+#presentation h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#presentation p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#presentation p:last-child {
+    margin-bottom: 0;
+}
+

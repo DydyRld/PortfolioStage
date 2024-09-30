@@ -7,9 +7,9 @@
     <title>Portfolio Rolland Dylan - Blog</title>
     <link rel="stylesheet" href="./style/style.css">
     <style>
-        /* Global Styling */
+        
+        
         body {
-            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             background-color: #f4f4f9;
             margin: 0;
@@ -110,7 +110,20 @@
 </head>
 
 <body>
-    <?php include_once 'navbar.php'; ?>
+    <nav id="desktop-nav">
+        <div class="logo">Dylan Rolland</div>
+        <div>
+            <ul class="nav-links">
+
+            <li><a href="index.html">À propos de moi</a></li>
+                <li><a href="entreprise.html">L'entreprise</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+        </div>
+    </nav>
 
     <h1>Articles</h1>
 
@@ -266,30 +279,53 @@
     </div>
 
     <div class="article-container">
-    <img src="./assets/stage_bilan.png" alt="Bilan de Stage" style="width:100%; max-width:400px;">
-    <h2>Bilan de mon stage à la Fondation Lenval</h2>
-    <p><strong>Date de publication :</strong> 29 septembre</p>
+        <img src="./assets/stage_bilan.png" alt="Bilan de Stage" style="width:100%; max-width:400px;">
+        <h2>Bilan de mon stage à la Fondation Lenval</h2>
+        <p><strong>Date de publication :</strong> 29 septembre</p>
 
-    <button class="read-more-btn" onclick="toggleArticle(this)">Lire plus</button>
+        <button class="read-more-btn" onclick="toggleArticle(this)">Lire plus</button>
 
-    <div class="article-content">
-        <p>Mon stage à la **Fondation Lenval** a été une expérience extrêmement enrichissante, tant sur le plan professionnel que personnel. Durant cette période, j'ai eu l'opportunité de mettre en pratique mes **connaissances en informatique et cybersécurité** tout en développant de nouvelles compétences cruciales pour ma carrière.</p>
-        <br>
-        <p>Tout au long de mon stage, j'ai mobilisé mes **connaissances en réseau et en sécurité informatique**, que j'avais déjà acquises en cours. Par exemple, j’ai contribué à la mise en place de nouvelles bornes Wi-Fi pour renforcer la connectivité au sein de l’hôpital. Cela a impliqué la **configuration des réseaux** et le **dépannage des systèmes**, des tâches pour lesquelles mes compétences théoriques et pratiques se sont révélées très utiles.</p>
-        <br>
-        <p>Une partie de mon travail a également consisté à **aider les médecins et le personnel médical** à résoudre des problèmes informatiques courants. Grâce à ma bonne compréhension des **systèmes d'exploitation** et des **logiciels**, j'ai pu intervenir rapidement pour résoudre des problèmes qu'ils ne maîtrisaient pas. Cela a non seulement amélioré leurs conditions de travail, mais a également renforcé ma capacité à **travailler en équipe**, notamment en collaborant avec différents services de l'hôpital.</p>
-        <br>
-        <p>Parmi les compétences acquises, l'une des plus marquantes est ma capacité à **analyser des infrastructures informatiques** et à proposer des améliorations pour optimiser la sécurité et la performance. En participant aux **audits de sécurité**, j'ai appris à identifier les vulnérabilités des systèmes et à recommander des solutions concrètes pour y remédier.</p>
-        <br>
-        <p>Ce stage m'a également permis de perfectionner ma capacité à **travailler sous pression**. En effet, les délais pour renouveler le parc informatique ou installer de nouvelles infrastructures étaient souvent serrés. Cela m'a enseigné à **prioriser les tâches** et à gérer mon temps efficacement pour répondre aux attentes de mes supérieurs tout en respectant les contraintes techniques.</p>
-        <br>
-        <p>Enfin, j’ai pu me rendre compte de l'importance de la **sécurisation des données** dans un environnement hospitalier. J’ai compris à quel point il était essentiel de mettre en place des systèmes solides pour protéger les informations sensibles, surtout dans un secteur où la **confidentialité des données des patients** est primordiale.</p>
-        <br>
-        <p>En résumé, mon stage à la Fondation Lenval a été une étape clé dans ma formation en **cybersécurité**. J'ai non seulement consolidé mes connaissances, mais aussi acquis de **nouvelles compétences techniques et humaines** qui me seront précieuses pour ma future carrière.</p>
+        <div class="article-content">
+            <p>Mon stage à la **Fondation Lenval** a été une expérience extrêmement enrichissante, tant sur le plan
+                professionnel que personnel. Durant cette période, j'ai eu l'opportunité de mettre en pratique mes
+                **connaissances en informatique et cybersécurité** tout en développant de nouvelles compétences
+                cruciales pour ma carrière.</p>
+            <br>
+            <p>Tout au long de mon stage, j'ai mobilisé mes **connaissances en réseau et en sécurité informatique**, que
+                j'avais déjà acquises en cours. Par exemple, j’ai contribué à la mise en place de nouvelles bornes Wi-Fi
+                pour renforcer la connectivité au sein de l’hôpital. Cela a impliqué la **configuration des réseaux** et
+                le **dépannage des systèmes**, des tâches pour lesquelles mes compétences théoriques et pratiques se
+                sont révélées très utiles.</p>
+            <br>
+            <p>Une partie de mon travail a également consisté à **aider les médecins et le personnel médical** à
+                résoudre des problèmes informatiques courants. Grâce à ma bonne compréhension des **systèmes
+                d'exploitation** et des **logiciels**, j'ai pu intervenir rapidement pour résoudre des problèmes qu'ils
+                ne maîtrisaient pas. Cela a non seulement amélioré leurs conditions de travail, mais a également
+                renforcé ma capacité à **travailler en équipe**, notamment en collaborant avec différents services de
+                l'hôpital.</p>
+            <br>
+            <p>Parmi les compétences acquises, l'une des plus marquantes est ma capacité à **analyser des
+                infrastructures informatiques** et à proposer des améliorations pour optimiser la sécurité et la
+                performance. En participant aux **audits de sécurité**, j'ai appris à identifier les vulnérabilités des
+                systèmes et à recommander des solutions concrètes pour y remédier.</p>
+            <br>
+            <p>Ce stage m'a également permis de perfectionner ma capacité à **travailler sous pression**. En effet, les
+                délais pour renouveler le parc informatique ou installer de nouvelles infrastructures étaient souvent
+                serrés. Cela m'a enseigné à **prioriser les tâches** et à gérer mon temps efficacement pour répondre aux
+                attentes de mes supérieurs tout en respectant les contraintes techniques.</p>
+            <br>
+            <p>Enfin, j’ai pu me rendre compte de l'importance de la **sécurisation des données** dans un environnement
+                hospitalier. J’ai compris à quel point il était essentiel de mettre en place des systèmes solides pour
+                protéger les informations sensibles, surtout dans un secteur où la **confidentialité des données des
+                patients** est primordiale.</p>
+            <br>
+            <p>En résumé, mon stage à la Fondation Lenval a été une étape clé dans ma formation en **cybersécurité**.
+                J'ai non seulement consolidé mes connaissances, mais aussi acquis de **nouvelles compétences techniques
+                et humaines** qui me seront précieuses pour ma future carrière.</p>
+        </div>
     </div>
-</div>
 
-    
+
 
 
 
